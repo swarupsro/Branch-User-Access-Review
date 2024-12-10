@@ -51,10 +51,8 @@ A Flask-based web application designed for secure branch user access management.
      app.config['LDAP_BIND_USER_PASSWORD'] = 'bind_user_password'
 
 4. Create necessary directories and database:
-  ```bash
-  mkdir uploads
-  python app.py
-   ```
+      ```bash
+      mkdir uploads
+      python app.py
+
 5. Access the application: Open your browser and navigate to http://127.0.0.1:5000.
-
-
