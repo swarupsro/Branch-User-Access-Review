@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome, {{ session['username'] }}</h1>
+<p>Select an action:</p>
+<ul>
+    <li><a href="{{ url_for('upload') }}">Upload CSV</a></li>
+    <li><a href="{{ url_for('options') }}">Select Options</a></li>
+</ul>
+{% endblock %}
