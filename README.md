@@ -1,7 +1,6 @@
 # Branch-User-Access-Review
 
-A Flask-based web application designed for secure branch user access management. This application allows managers to authenticate via Active Directory, upload employee data, and make access reviews. 
-
+Branch user access management.
 ---
 
 ## Features
@@ -56,3 +55,4 @@ A Flask-based web application designed for secure branch user access management.
       python app.py
 
 5. Access the application: Open your browser and navigate to http://127.0.0.1:5000.
+
