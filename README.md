@@ -35,24 +35,26 @@ A Flask-based web application designed for secure branch user access management.
 ## Installation and Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Branch-User-Access-Review.git
-   cd Branch-User-Access-Review
+      ```bash
+      git clone https://github.com/yourusername/Branch-User-Access-Review.git
+      cd Branch-User-Access-Review
 
 2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+      ```bash
+      pip install -r requirements.txt
 
 3. Set up your Active Directory configuration in app.py:
-  ```python
-  app.config['LDAP_HOST'] = 'your_ldap_host'
-  app.config['LDAP_BASE_DN'] = 'DC=example,DC=com'
-  app.config['LDAP_BIND_USER_DN'] = 'CN=bind_user,CN=Users,DC=example,DC=com'
-  app.config['LDAP_BIND_USER_PASSWORD'] = 'bind_user_password'
+     ```python
+     app.config['LDAP_HOST'] = 'your_ldap_host'
+     app.config['LDAP_BASE_DN'] = 'DC=example,DC=com'
+     app.config['LDAP_BIND_USER_DN'] = 'CN=bind_user,CN=Users,DC=example,DC=com'
+     app.config['LDAP_BIND_USER_PASSWORD'] = 'bind_user_password'
 
 4. Create necessary directories and database:
   ```bash
   mkdir uploads
   python app.py
-
+   ```
 5. Access the application: Open your browser and navigate to http://127.0.0.1:5000.
+
+
