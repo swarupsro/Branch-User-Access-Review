@@ -1,59 +1,74 @@
-# Branch-User-Access-Review
+# 🏦 Bank Branch Access Management System
 
-   Branch user access management.
+A web application built with React, TypeScript, Vite, and Tailwind CSS to streamline user access review processes across 200+ bank branches. Designed specifically for branch managers to securely authenticate using Active Directory and submit access reviews.
+
+## 🔧 Features
+
+- ✅ AD-authenticated login for branch managers
+- 📄 CSV-based user data import for each branch
+- 🔍 Review and submit access rights in an intuitive interface
+- ⚙️ Built with Vite, React, TypeScript, and Tailwind CSS
+- 🔐 Focused on internal bank cybersecurity practices
+
+## 🛠 Tech Stack
+
+- **Frontend**: React 18, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js >= 18.x
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/bank-branch-access-app.git
+cd bank-branch-access-app
+
+# Install dependencies
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```
+project/
+├── src/               # React components and pages
+├── index.html         # App entry HTML
+├── vite.config.ts     # Vite configuration
+├── tailwind.config.js # Tailwind setup
+├── package.json       # Project metadata and dependencies
+```
+
+## 📄 License
+
+This project is intended for internal use in banking environments and is not publicly licensed. Please contact the maintainer for access or deployment.
 
 ---
 
-## Features
-1. **Active Directory Authentication**:
-   - Only managers can log in using their credentials.
-   - Role-based access control ensures security.
-
-2. **CSV File Upload**:
-   - Import employee and manager profiles via CSV.
-   - Automatically saves the data to an SQLite database.
-
-3. **Options Dropdown**:
-   - Managers can select predefined options for access reviews.
-
-4. **Data Storage**:
-   - Employee details stored in a lightweight SQLite database.
-
----
-
-## Prerequisites
-
-1. Python 3.8+
-2. Required Python Libraries (install via `requirements.txt`):
-   - Flask
-   - Flask-LDAP3-Login
-   - Flask-SQLAlchemy
-   - pandas
-
----
-
-## Installation and Setup
-
-1. Clone the repository:
-      ```bash
-      git clone https://github.com/yourusername/Branch-User-Access-Review.git
-      cd Branch-User-Access-Review
-
-2. Install dependencies:
-      ```bash
-      pip install -r requirements.txt
-
-3. Set up your Active Directory configuration in app.py:
-     ```python
-     app.config['LDAP_HOST'] = 'your_ldap_host'
-     app.config['LDAP_BASE_DN'] = 'DC=example,DC=com'
-     app.config['LDAP_BIND_USER_DN'] = 'CN=bind_user,CN=Users,DC=example,DC=com'
-     app.config['LDAP_BIND_USER_PASSWORD'] = 'bind_user_password'
-
-4. Create necessary directories and database:
-      ```bash
-      mkdir uploads
-      python app.py
-
-5. Access the application: Open your browser and navigate to http://127.0.0.1:5000.
-
+> Developed with ❤️ for secure and efficient access management.
