@@ -29,7 +29,7 @@ A web application built with React, TypeScript, Vite, and Tailwind CSS to stream
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/bank-branch-access-app.git
+git clone https://github.com/swarupsro/Branch-User-Access-Review.git
 cd bank-branch-access-app
 
 # Install dependencies
