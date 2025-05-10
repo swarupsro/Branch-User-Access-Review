@@ -1,6 +1,6 @@
 # 🏦 Bank Branch Access Management System
 
-A web application built with React, TypeScript, Vite, and Tailwind CSS to streamline user access review processes across 200+ bank branches. Designed specifically for branch managers to securely authenticate using Active Directory and submit access reviews.
+A web application built with React, TypeScript, Vite, and Tailwind CSS to streamline user access review processes across bank branches. Designed specifically for branch managers to securely authenticate using Active Directory and submit access reviews.
 
 ## 🔧 Features
 
